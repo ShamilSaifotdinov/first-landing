@@ -1,0 +1,139 @@
+/*
+* Landing Page - Practice
+* CSS Styles
+* http://www.idg.net.ua/blog/uchebnik-css/ispolzovanie-css/praktika-delaem-landing-page
+*
+*/
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.6;
+}
+/* General */
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	height: 21px;
+	margin: 36px 0;
+}
+header .brand {
+	display: inline;
+	font-size: 21px;
+	color: #59abe3;
+}
+header nav {
+	margin: 0px;
+	width: 250px;
+	float: right;
+}
+.menu {
+	margin: 0;
+	padding: 0;
+}
+.menu li {
+	display: inline;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+header a {
+	font-size: 12px;
+	color: #b6b6b6;
+}
+
+.jumbotron {
+	background-image: url(../img/jumbotron.jpg);
+	background-position: 50% 5%;
+	background-size: 100%;
+	height: 410px;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	padding: 115px 0;
+}
+.jumbotron h1 {
+	font-size: 30px;
+	margin: 0px;
+}
+.jumbotron a {
+	display: inline-block;
+	border-radius: 35px;
+	padding: 22px 30px;
+	background-color: #fa5ba5;
+	font-size: 15px;
+	margin: 75px;
+}
+
+/* Services */
+
+.services h2 {
+	text-align: center;
+	margin: 75px;
+}
+
+.service {
+	display: inline-block;
+	width: 270px;
+	margin: 23px;
+	text-align: center;
+}
+.service i {
+	color: #999;
+	margin: 30px;
+}
+/* Blog */
+
+.blog {
+	background-color: #fcfcfc;
+	margin-bottom: 50px;
+}
+.blog h2 {
+	text-align: center;
+	padding: 60px;
+}
+
+.post img {
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+}
+.post {
+	clear: left;
+	height: 240px;
+	margin: 30px 0;
+}
+.post h3 {
+	padding-top: 30px;
+	margin: 30px;
+
+}
+/* Footer */
+
+footer {
+	height: 244px;
+	background-color: #38404b;
+	text-align: center;
+	color: #b3c1d4;
+	padding: 55px;
+	box-sizing: border-box;
+}
+footer .brand {
+	font-size: 21px;
+}
+footer .menu {
+	margin: 39px;
+	font-size: 12px;
+}
+.copyright {
+	font-size: 9px;
+	color: #dbdcdd;
+}
