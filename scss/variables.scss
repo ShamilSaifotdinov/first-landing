@@ -1,0 +1,14 @@
+$common-font: Raleway, Arial, Helvetica, sans-serif;
+
+$brand-color: #59abe3;
+$text-color: #b6b6b6;
+$body-bg: #ffffff;
+$panel-bg: $body-bg;
+
+%headings-font {
+    font-size: 22px;
+    font-weight: 600;
+    color: #282828;
+}
+
+$footer-color: #bcc9dd;

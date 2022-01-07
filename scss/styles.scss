@@ -1,0 +1,124 @@
+@import '../bootstrap/scss/bootstrap';
+@import 'variables';
+
+body {
+    font-family: $common-font;
+    .container {
+        @include media-breakpoint-up(xl) {
+            max-width: 960px;
+        }
+        @include media-breakpoint-up(xxl) {
+            max-width: 960px;
+        }        
+    }
+    .wrapper {
+
+        header {
+            
+            .navbar {
+                padding: 0;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                h2 {
+                    margin: 0;
+                }
+                .navbar-brand {
+                    padding: 0;
+
+                    color: $brand-color;
+                }
+                .navbar-nav>a {
+                    color: $text-color;
+                    padding-top: 0;
+
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                }
+            }
+        }      
+                  
+    }
+
+    .heading {
+        height: 410px;
+
+        background-image: url(img/jumbotron.jpg);
+        background-position: center 10%;
+
+        .container {
+            padding-top: 115px;
+            h1 {
+                margin-bottom: 66px;
+
+                font-size: 31px;
+                color: white;
+            }
+            .btn {
+                width: 240px;
+                height: 60px;                
+
+                font-size: 16px;
+                font-weight: 500;
+                
+                border: none;
+                background-color: #fa5ba5;
+            }
+        }
+
+        
+    }
+    main {
+        h3 {
+            @extend %headings-font;
+            margin-bottom: 56px;
+        }
+        .row {
+            color: $text-color;
+
+
+        }
+        .section-services {
+            margin-top: 77px;
+
+            i {
+                margin-bottom: 34px;
+            }
+        }
+
+        article {
+            margin-top: 68px;
+            padding-top: 78px;
+            padding-bottom: 50px;
+            background-color: #fcfcfc;
+
+            h4 {
+                @extend %headings-font;
+                font-size: 20px;
+            }
+            .section-blog {
+                .row {
+                    margin-bottom: 31px;
+                }
+            }
+        }
+    }
+    footer {     
+        padding-top: 55px;
+        padding-bottom: 65px;
+
+        background-color: #38404b;
+        color: $footer-color;
+        h2 {
+            margin-bottom: 30px;
+        }
+        a {
+            color: $footer-color;
+        }
+        p {
+            color: #e4e4e5;
+            margin-top: 30px;
+        }
+    }
+}
